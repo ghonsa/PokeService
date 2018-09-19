@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeService", "PokeService\PokeService.csproj", "{765BAF9D-3A92-4248-8210-438FB4EF0280}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PokeSetup", "PokeSetup\PokeSetup.vdproj", "{DD871557-3FD7-43FF-92B2-E7D2267BA68B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeSend", "PokeSend\PokeSend.csproj", "{15DF0A07-4E7C-4895-92F2-4147635D648C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{765BAF9D-3A92-4248-8210-438FB4EF0280} = {765BAF9D-3A92-4248-8210-438FB4EF0280}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{765BAF9D-3A92-4248-8210-438FB4EF0280}.Debug|x86.ActiveCfg = Debug|x86
+		{765BAF9D-3A92-4248-8210-438FB4EF0280}.Debug|x86.Build.0 = Debug|x86
+		{765BAF9D-3A92-4248-8210-438FB4EF0280}.Release|x86.ActiveCfg = Release|x86
+		{765BAF9D-3A92-4248-8210-438FB4EF0280}.Release|x86.Build.0 = Release|x86
+		{DD871557-3FD7-43FF-92B2-E7D2267BA68B}.Debug|x86.ActiveCfg = Release
+		{DD871557-3FD7-43FF-92B2-E7D2267BA68B}.Debug|x86.Build.0 = Release
+		{DD871557-3FD7-43FF-92B2-E7D2267BA68B}.Release|x86.ActiveCfg = Release
+		{DD871557-3FD7-43FF-92B2-E7D2267BA68B}.Release|x86.Build.0 = Release
+		{15DF0A07-4E7C-4895-92F2-4147635D648C}.Debug|x86.ActiveCfg = Debug|x86
+		{15DF0A07-4E7C-4895-92F2-4147635D648C}.Debug|x86.Build.0 = Debug|x86
+		{15DF0A07-4E7C-4895-92F2-4147635D648C}.Release|x86.ActiveCfg = Release|x86
+		{15DF0A07-4E7C-4895-92F2-4147635D648C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
